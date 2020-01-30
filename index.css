@@ -13,7 +13,9 @@ body {
 
 .card {
     background: white;
-    padding: .2em;
+    padding: 1.5em;
+    margin-bottom: .5em;
+    line-height: 1.5em;
     width: 60%;
 }
 
@@ -28,3 +30,15 @@ p {
 }
 
 /* Overwrite CSS */ 
+
+.secondary {
+    padding: 1.5em;
+}
+
+.secondary h1 {
+    margin-bottom: .5em;
+}
+
+.secondary p {
+    line-height: 1.5em;
+}
