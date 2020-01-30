@@ -1,2 +1,2 @@
-# -UI_design
+# UI_design
 HTML, CSS &amp; JS
