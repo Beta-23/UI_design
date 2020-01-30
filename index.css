@@ -10,9 +10,9 @@ html, body {
 
 body {
     background: #444E5C;
-    display: inline-grid;
+    display: grid;
     place-items: center;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
     font-family: 'Montserrat';
 }
 
