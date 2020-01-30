@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+/* Other CSS */
+
 html, body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 165vh;
 }
 
 body {
-    background: #eeeeee;
-    display: grid;
+    background: #444E5C;
+    display: inline-grid;
     place-items: center;
     grid-template-columns: repeat(2, auto);
+    font-family: 'Montserrat';
 }
 
 .card {
     background: white;
     padding: 1.5em;
-    margin-bottom: .5em;
-    line-height: 1.5em;
     width: 60%;
 }
 
@@ -29,16 +32,58 @@ p {
     font-size: .8em;
 }
 
+/*----*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+}
+a.logo {
+    display: block;
+    padding-top: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+#title {
+    margin: 2em 0 1em .5em;
+    color: white;
+}
+
+a.cta {
+    display: inline-block;
+    background: #5099FF;
+    padding: .8em 1.7em;
+    font-weight: bold;
+    border-radius: 2em;
+    transform: translateX(50%);
+    margin-top: 1.5em;
+}
+
+.container {
+    border-left: 1px solid rgba(255,255,255,0);
+}
+
+h1 { margin-left: 0; }
+a.cta { transform: none; }
+a.logo { text-align: left; }
+
 /* Overwrite CSS */ 
 
 .secondary {
     padding: 1.5em;
 }
 
-.secondary h1 {
+.secondary, .card h1 {
     margin-bottom: .5em;
 }
 
-.secondary p {
+.secondary, .card p {
     line-height: 1.5em;
 }
